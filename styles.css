@@ -1,11 +1,28 @@
 @font-face {
-    font-family: Roboto;
+    font-family: "Roboto";
+    src:local("Roboto"),
+
 }
 
 * {
     font-family: "Roboto";
     margin: 0;
     padding: 0;
+    
+}
+
+.nothing {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+
+
+}
+
+.everything {
+    width: 1400px;
+    background-color: white;
 }
 
 .top {
@@ -136,4 +153,90 @@ h2 {
     width: 170px;
     text-align: center;
     margin-top: 8px;
+}
+
+.quote-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+}
+
+.footer-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    width: 1040px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-content {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.right {
+    width: 140px;
+    height: 38px;
+    border: solid #F9FAF8 2px;
+    border-radius: 8px;
+    background-color: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.copyright-bar {
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 400;
 }
